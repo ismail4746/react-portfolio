@@ -9,7 +9,7 @@ import javascriptLogo from "../assets/javascript.svg";
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
-      <h1 className="text-neutral-950 my-20 text-4xl flex justify-center items-center font-semibold">Technologies</h1>
+      <h1 className="text-slate-400 my-20 text-4xl flex justify-center items-center font-semibold">Technologies</h1>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <img src={htmlLogo} alt="HTML Logo" className="w-20 h-20" />
