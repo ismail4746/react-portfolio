@@ -10,7 +10,7 @@ const Experience = () => {
       {EXPERIENCES.map((experience, index) => (
         <div key={index} className="mb-8 flex flex-wrap lg:justify-center"> {/* Corrected typo here */}
           <div className="w-full lg:w-1/4">
-            <p className="mb-2 text-sm text-red-600 font-semibold">{experience.year}</p>
+            <p className="mb-2 text-sm text-neutral-50 font-semibold">{experience.year}</p>
           </div>
           <div className="w-full max-w-xl lg:w-3/4">
             <h6 className="text-neutral-350 mb-2 font-semibold">

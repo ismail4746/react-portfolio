@@ -1,10 +1,11 @@
 import React from 'react';
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/ismail.jpg";
+import profilePic from "../assets/fsd.png";
+import About from './About';
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35 pt-0">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -19,14 +20,18 @@ const Hero = () => {
   <div className="flex justify-center">
     <img 
       src={profilePic} 
-      alt="Ismail" 
-      className='w-[400px] h-[450px] rounded-3xl' 
+      alt="fsd" 
+      className='w-[400px] h-[400px] rounded-3xl' 
     />
   </div>
 </div>
 
       </div>
+    
+
     </div>
+
+
   );
 };
 
